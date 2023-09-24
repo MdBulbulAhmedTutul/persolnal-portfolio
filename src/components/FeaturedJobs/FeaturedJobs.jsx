@@ -10,7 +10,7 @@ const FeaturedJobs = () => {
     },[])
     return (
         <div>
-            <div className="text-center">
+            <div className="text-center mb-10">
                 <h2 className="text-3xl font-bold mb-2">Featured Jobs</h2>
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>

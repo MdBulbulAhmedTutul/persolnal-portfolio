@@ -3,7 +3,7 @@ const Job = ({ job }) => {
     // eslint-disable-next-line no-unused-vars
     const { logo, job_title, company_name, location, job_type, salary, remote_or_onsite } = job;
     return (
-        <div className="bg-white shadow-lg rounded-xl p-3">
+        <div className="bg-white shadow-xl rounded-xl p-3">
             <img className="w-40" src={logo} alt="" />
             <h2 className="text-xl font-semibold mb-2 mt-2">{job_title}</h2>
             <h3 className="font-medium mb-2">{company_name}</h3>

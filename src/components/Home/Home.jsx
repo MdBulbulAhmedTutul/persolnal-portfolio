@@ -5,9 +5,15 @@ import Joblist from "../Joblist/Joblist";
 const Home = () => {
     return (
         <div>
-            <Banner></Banner>
-            <Joblist></Joblist>
-            <FeaturedJobs></FeaturedJobs>
+            <div className="my-16">
+                <Banner></Banner>
+            </div>
+            <div className="my-24">
+                <Joblist></Joblist>
+            </div>
+            <div className="my-24">
+                <FeaturedJobs></FeaturedJobs>
+            </div>
         </div>
     );
 };
